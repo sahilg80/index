@@ -1,0 +1,72 @@
+<!-- <html>
+  <head>
+    <title>Pi Video Surveillance</title>
+  </head>
+  <body>
+    <h1>smart traffic junction</h1>
+    <img src="{{ url_for('video_feed') }}">
+    <a href="/red">red</a>
+    <a href="/yellow">yellow</a>
+    <a href="/green">green</a>
+
+
+
+
+
+  </body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="c.css">
+    <title>Document</title>
+</head>
+<body >
+   
+    <div id="container"><iframe id="video" src="{{ url_for('video_feed') }}"></iframe>
+     
+ </div>
+ <div class="light">
+ <span>
+     <button id="tl" class="block left">
+         turn left
+     </button>
+    </span>
+    <span >
+        <button id="tr" class="block right">
+           turn right
+        </button>
+
+    </span>
+      <div >
+        <button id="r" class="round red">
+      red
+        </button>
+        </div>
+        <div >
+            <button id="y"class="round yell">
+                yellow
+            </button>
+</div>
+        <div >
+       <button id="g" class="round green">
+           green
+       </button>
+       
+
+    </div>
+    <!-- <div > -->
+       <!-- <button id="ana"> -->
+        <!-- analyse the video -->
+        
+       <!-- </button> -->
+    <!-- </div> -->
+    
+</div>
+<script  type="text/javascript" src="g.js"></script>
+</body>
+
+</html> 

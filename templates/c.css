@@ -1,0 +1,60 @@
+body{
+    background-color: #232323;
+   
+}
+#container{
+    margin:3px;
+    width: 69%;
+    float: left;
+    height: 80%;
+    background-color: #232323;
+}
+
+.light{
+    text-align: center;
+    float: left;
+    margin: 3px;
+    height:49rem;
+    width:29%;
+    background-color: lightgoldenrodyellow;
+}
+
+.round{
+    border-radius: 50%;
+    color: black;
+    margin: 10%;
+    text-transform: uppercase;
+    border: none;
+    width: 40%;
+    height: 2.55rem;
+
+   
+}
+
+.block{ border: none;
+    font-weight:400px;
+   color: white;
+   height: 2.55rem;
+   width: 20%;
+   margin-top: 5rem;
+    border-radius: 4%;
+    margin-left:50px ;
+    margin-bottom: 8rem;
+     background-color: grey;
+}
+.red{
+    background-color: red;
+   
+}
+.yell{
+    background-color: rgb(247, 247, 4);
+}
+.green{
+    background-color: green;
+}
+#video{
+    
+    width: 100%;
+    height: 49rem;
+  
+}
